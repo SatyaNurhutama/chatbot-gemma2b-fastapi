@@ -39,8 +39,9 @@ A lightweight, token-aware chatbot backend powered by [Ollama](https://ollama.co
 ## Set Up .env
 ```
 DB_PATH=/Users/<your-username>/Documents/labs/my_chatbot.db
-OLLAMA_HOST=http://localhost:11434
+HF_TOKEN=
 ```
+HF_TOKEN = get the token [here](https://huggingface.co/settings/tokens)
 
 ## Example Request (using curl)
 ```
